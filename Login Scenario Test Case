@@ -1,0 +1,59 @@
+For the OrangeHRM login page, here are some essential test cases for Selenium automation:
+
+### 1. **Verify Login with Valid Credentials**
+   - **Test Steps**:
+     1. Open the login page.
+     2. Enter valid username and password.
+     3. Click on the “Login” button.
+     4. Verify if the user is redirected to the dashboard.
+   - **Expected Result**: User successfully logs in and sees the dashboard.
+
+### 2. **Verify Login with Invalid Credentials**
+   - **Test Steps**:
+     1. Open the login page.
+     2. Enter an invalid username or password.
+     3. Click on the “Login” button.
+     4. Check for error messages displayed on the page.
+   - **Expected Result**: Error message is displayed, and the user remains on the login page.
+
+### 3. **Verify Required Field Validations**
+   - **Test Steps**:
+     1. Open the login page.
+     2. Leave the username or password fields blank.
+     3. Click on the “Login” button.
+     4. Observe if validation messages are shown.
+   - **Expected Result**: Appropriate validation message appears, e.g., “Required.”
+
+### 4. **Verify 'Forgot Your Password?' Link**
+   - **Test Steps**:
+     1. Open the login page.
+     2. Click on the “Forgot your password?” link.
+     3. Verify if the user is redirected to the password reset page.
+   - **Expected Result**: User is redirected to the password reset page.
+
+### 5. **Verify Page Title and URL**
+   - **Test Steps**:
+     1. Open the login page.
+     2. Verify if the page title and URL match the expected values.
+   - **Expected Result**: The page title and URL should correspond to the expected OrangeHRM login page title and URL.
+
+### 6. **Verify Successful Logout**
+   - **Test Steps**:
+     1. Log in with valid credentials.
+     2. Click on the “Logout” option.
+     3. Verify if the user is redirected back to the login page.
+   - **Expected Result**: User is redirected to the login page after logging out.
+
+### 7. **Verify the Remember Me Functionality (if available)**
+   - **Test Steps**:
+     1. Open the login page.
+     2. Enter valid credentials.
+     3. Select the “Remember Me” checkbox (if available).
+     4. Log in, then log out.
+     5. Refresh the login page to check if credentials are saved.
+   - **Expected Result**: Saved credentials should populate in the login fields if the “Remember Me” function is enabled.
+
+### 8. **Verify the Browser Compatibility**
+   - **Test Steps**:
+     1. Run the login test cases across different browsers (Chrome, Firefox, Edge, Safari).
+   - **Expected Result**: The login page should work consistently across supported browsers.
