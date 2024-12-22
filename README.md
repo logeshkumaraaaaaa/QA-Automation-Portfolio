@@ -11,7 +11,7 @@ Welcome to my QA Automation Portfolio! This repository contains various projects
    - **Description**: This project contains a simple test that automates a login functionality using Selenium WebDriver and TestNG. It demonstrates how to write and execute a basic UI test.
    - **Technologies**: Java, Selenium WebDriver, TestNG.
    - **How to Run**: Instructions included in the project folder.
-   - **[Link to Project](#)** (Replace with link to the folder once uploaded)
+   - 
 
 ---
 
@@ -19,7 +19,7 @@ Welcome to my QA Automation Portfolio! This repository contains various projects
    - **Description**: This project implements the Page Object Model (POM) design pattern in Selenium WebDriver to improve test maintenance and reusability. It demonstrates how to structure Selenium tests for large-scale projects.
    - **Technologies**: Java, Selenium WebDriver, TestNG, Maven.
    - **How to Run**: Instructions included in the project folder.
-   - **[Link to Project](#)** (Replace with link to the folder once uploaded)
+   - 
 
 ---
 
@@ -27,7 +27,7 @@ Welcome to my QA Automation Portfolio! This repository contains various projects
    - **Description**: A project that shows how to perform data-driven testing using an external Excel file for test data. It demonstrates the use of Apache POI for reading data from Excel files.
    - **Technologies**: Java, Selenium WebDriver, Apache POI, TestNG.
    - **How to Run**: Instructions included in the project folder.
-   - **[Link to Project](#)** (Replace with link to the folder once uploaded)
+   - 
 
 ---
 
